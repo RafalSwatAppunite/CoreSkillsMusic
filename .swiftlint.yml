@@ -1,0 +1,27 @@
+disabled_rules:
+  - identifier_name
+  - todo
+  - function_body_length
+  - type_body_length
+  - line_length
+  - file_length
+  - large_tuple
+  - valid_ibinspectable
+  - trailing_whitespace
+  - unused_setter_value
+  - force_cast
+  - force_try
+  - nesting
+  - function_parameter_count
+  - cyclomatic_complexity
+  - implicit_getter
+  - type_name
+  - opening_brace
+excluded:
+  - Pods
+  - Carthage
+  - vendor
+  - UnitTests
+  - BlocktradeUI/R.generated.swift
+  - XcodeTemplates
+  - '*/*/*.generated.swift'
